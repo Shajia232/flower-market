@@ -117,7 +117,8 @@ a{
     display: flex;
     margin-top: 127px ;
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 150px; 
+    margin-bottom: 10px;
     justify-content: space-between;
     gap: 50px;
 }
@@ -126,5 +127,31 @@ a{
     font-size: 50px;
 }
 .indulge{
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.form1{
+    background-image: url(../assets/news-letter-bg.png);
+    width: 1440px;
+    height: 533px;
+    text-align: center;
+}
+.btn2{
+    background-color:rgba(233, 90, 8, 1) ;
+    color: white;
+    border: 0;
+    height: 50px;
+    width: 186px;
+}
+.mail{
+    color:rgba(137, 135, 161, 1) ;
+    height: 43px;
+    width: 644px;
+    font-size: small;
+}
+.join-bunch{
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+    padding-top: 200px;
 }
