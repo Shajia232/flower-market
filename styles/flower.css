@@ -77,3 +77,24 @@ a{
 .para2{
     text-align: center;
 }
+.card{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-left: 150px ;
+    margin-right: 150px;
+    gap: 20px;
+}
+.img-card{
+    width: 270px;
+    height: 322px;
+}
+.btn{ 
+    color: white;
+    height: 50px;
+    width: 272px;
+    background-color:rgba(233, 90, 8, 1);
+    border: 0;
+} 
+.card-text{
+    text-align: center;
+}
