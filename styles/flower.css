@@ -1,0 +1,37 @@
+.img-logo{
+    height: 65px;
+    width: 120px;
+    margin-top: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+}
+.home{
+    color: black;
+    font-weight: 400;
+}
+.light-grey{
+    color: rgba(137, 135, 161, 1);
+}
+.cart1{
+    color: black;
+}
+.cart{
+    height: 19px;
+    width: 20px;
+}
+.shop{
+    display: flex;
+}
