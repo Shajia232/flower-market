@@ -216,7 +216,7 @@ a{
     width:365px ;
     border-radius: 8px;
 }
-@media screen and (max-width: 576px) {
+@media only screen and (max-width:600px) {
     .badge{
         display: none;
     }
@@ -241,6 +241,10 @@ a{
         flex-direction: row;
     }
     .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .ul-foot{
         display: flex;
         flex-direction: row;
     }
