@@ -20,10 +20,16 @@
     margin-right: 150px;
     align-items: center;
 }
-ul{
+.ul-p{
+    list-style: disc;
+}
+.ul-nav{
     list-style: none;
     display: flex;
     gap: 40px;
+}
+ul li::marker{
+    color:rgba(137, 135, 161, 1); 
 }
 a{
     text-decoration: none;
@@ -97,4 +103,28 @@ a{
 } 
 .card-text{
     text-align: center;
+}
+.badge{
+    height: 286px;
+    width: 286px;
+    transform: translate(350px, -700px);
+}
+.flower-store{
+    height: 597PX ;
+    width: 540PX ;
+}
+.container2{
+    display: flex;
+    margin-top: 127px ;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
+    gap: 50px;
+}
+.fpl{
+    font-weight: bold;
+    font-size: 50px;
+}
+.indulge{
+    font-size: 22px;
 }
