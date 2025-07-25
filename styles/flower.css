@@ -216,13 +216,14 @@ a{
     width:365px ;
     border-radius: 8px;
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .badge{
         display: none;
     }
     .mobile{
         display: none;
     }
+
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
