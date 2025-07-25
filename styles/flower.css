@@ -220,6 +220,10 @@ a{
     .badge{
         display: none;
     }
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .mobile{
         display: none;
     }
